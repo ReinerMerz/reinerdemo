@@ -19,8 +19,6 @@ in the projects src tree. Be sure to use ademo as require.js prefix.
 
 This is based on my blog on the multipart post "Rethinking smartui"
 
-http://pos2007.de/rethinking-smartui-part-3
-http://pos2007.de/rethinking-smartui-part-2
 http://pos2007.de/rethinking-smartui
 
 
