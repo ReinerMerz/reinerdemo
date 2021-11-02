@@ -1,0 +1,46 @@
+div#xp {
+    perspective: 1500px;
+}
+div#cube {
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateX(-24deg) rotateY(-40deg) rotateZ(0deg);
+}
+div#cube div.faces {
+    position: absolute; top: 0; left: 0;
+}
+div.face.one { transform: rotateY(0deg) translateZ(150px); }
+div.face.two { transform: rotateY(180deg) translateZ(150px); }
+div.face.three { transform: rotateX(-90deg) translateZ(150px); }
+div.face.four { transform: rotateY(-90deg) translateZ(150px); }
+div.face.five { transform: rotateY(90deg) translateZ(150px); }
+div.face.six { transform: rotateX(90deg) translateZ(150px); }
+/* for 3d cube instead of Grid cube
+#cube {
+    position: absolute;
+    top:80%;left:30%;
+    transform-style: preserve-3d;
+    transform: rotateX(-24deg) rotateY(-40deg) rotateZ(0deg) translateX(200px);
+    display: block;
+    transform-origin: center 200px  200px;
+}
+.cube-child {
+    position: absolute; top: 0; left: 0;
+}
+.one { transform: rotateY(0deg) translateZ(200px); }
+.two { transform:   rotateZ(180deg) rotateY(180deg) translateZ(200px); }
+.three { transform: rotateX(-90deg) translateZ(200px); }
+.four { transform: rotateY(-90deg) translateZ(200px); }
+.five { transform: rotateY(90deg) translateZ(200px); }
+.six { transform: rotateX(90deg) translateZ(200px); }
+#cube {
+    transform: rotateX(-25deg) rotateY(-25deg) rotateZ(10deg);
+    transition: transform 2s ease-in-out;
+}
+#cube:hover {
+    transform: rotateX(40deg) rotateY(-215deg) rotateZ(-10deg) translateZ(200px);
+    transition: transform 2s ease-in-out;
+}
+
+
+*/

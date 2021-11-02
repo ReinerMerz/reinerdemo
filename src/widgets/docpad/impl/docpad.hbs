@@ -1,0 +1,81 @@
+<div class="main"></div>
+<div class="head ">
+    <div class="topbox noprint">
+        <div class="topbox-child">{{message}}&nbsp<br/>
+            <span id="date">{{mydate}}<br/></span>
+            <span id="time"></span>
+        </div>
+        <div class="tooltip noprint"><span class="tooltiptext" id="userinfo">{{sessionexpires}} {{sessionexpire}}</span>
+            <div class="topbox-child" id="photo"></div>
+        </div>
+    </div>
+    <div class="menubtns noprint">
+
+        <button type="button" class="menubtn printbtn hide " aria-label="{{printdoc}}">
+            <span class="binf-glyphicon binf-glyphicon-print"></span>
+        </button>
+
+
+    </div>
+    <div class="menu noprint">
+        <ul>
+            <li>
+                <div class="sbt ">
+                    <button type="button" class="btn picker" aria-label="{{seldoc}}"><span>{{selectadocument}}</span></button>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</div>
+<div id="content" class="hide">
+    <div id="document1" class="displayheader noprint"></div>
+    <div id="xp">
+        <div id="cam">
+            <div id="cube" class="cube">
+                <div class="card  cube-child card1" id="thumb1">
+
+                    <span class="face one"></span>
+                </div>
+
+                <div class="card cube-child card2">
+
+                    <span class="face two"></span>
+                </div>
+                <div class="card cube-child card3">
+
+                    <span class="face three"></span>
+                </div>
+                <div class="card cube-child card4">
+
+                    <span class="face four"></span>
+                </div>
+                <div class="card cube-child card5">
+
+                    <span class="face five"></span>
+                </div>
+                <div class="card cube-child card6" id="thumb2">
+
+                    <span class="face six"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footerbox ">
+    <div class="leftbox boxcell block">
+        <span class="footerhdr">{{fullname}}</span><br/>
+        {{title}}
+
+    </div>
+    <div class="centerbox boxcell block">
+        {{bphone}} {{phone}}<br/>
+        {{bfax}} {{fax}}<br/>
+        {{bemail}} {{email}}<br/>
+    </div>
+    <div class="rightbox boxcell block">
+        {{boffice}}<br/> {{office}}
+    </div>
+</div>

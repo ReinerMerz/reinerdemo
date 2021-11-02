@@ -1,0 +1,10 @@
+{
+  "$schema": "http://opentext.com/cs/json-schema/draft-04/schema#",
+  "title": "docpad",
+  "description": "Doccument Launch Pad",
+  "kind": "tile",
+  "schema": {
+    "type": "object",
+    "properties": {}
+  }
+}

@@ -1,0 +1,157 @@
+@media screen {
+
+    /* some shapes */
+    .triangle-down {
+        width: 0;
+        height: 0;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 50px solid #555;
+    }
+
+    .triangle-up {
+        width: 0;
+        height: 0;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 50px solid #555;
+    }
+
+    .triangle-left {
+        width: 0;
+        height: 0;
+        border-top: 25px solid transparent;
+        border-right: 50px solid #555;
+        border-bottom: 25px solid transparent;
+    }
+
+    .triangle-right {
+        width: 0;
+        height: 0;
+        border-top: 25px solid transparent;
+        border-left: 50px solid #555;
+        border-bottom: 25px solid transparent;
+    }
+
+    .circle {
+        height: 50px;
+        width: 50px;
+        background-color: #555;
+        border-radius: 50%;
+        color: red;
+    }
+
+    .square {
+        height: 50px;
+        width: 50px;
+        background-color: #555;
+    }
+
+    .rectangle {
+        height: 50px;
+        width: 100px;
+        background-color: #555;
+    }
+
+    /*arrows */
+    .arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+    }
+
+    .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+    .left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+
+    .up {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+    }
+
+    .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+
+    .thumbnails {
+        --standard: 1.0;
+        --transition: all 0.3s linear;
+        object-fit: contain;
+        -webkit-transform: scale(var(--standard));
+        -moz-transform: scale(var(--standard));
+        -ms-transform: scale(var(--standard));
+        -o-transform: scale(var(--standard));
+        transform: scale(var(--standard));
+        -webkit-transition: var(--transition);
+        -moz-transition: var(--transition);
+        -ms-transition: var(--transition);
+        -o-transition: var(--transition);
+        transition: var(--transition);
+
+    }
+
+    .thumbnails:hover {
+        --zoom: 1.2;
+        -webkit-transform: scale(var(--zoom));
+        -moz-transform: scale(var(--zoom));
+        -ms-transform: scale(var(--zoom));;
+        -o-transform: scale(var(--zoom));
+        transform: scale(var(--zoom)) translateX(80px) translateY(10px);
+        image-rendering: high-quality;
+        border: 2px solid blue;
+    }
+
+
+    #cam {
+        perspective: 1500px;
+    }
+/* the gleaming border classes */
+    .block {
+        position: relative;
+        margin: 300px auto 0;
+        width: 98%;
+        height: 20px;
+        background: linear-gradient(0deg, #000, #272727);
+    }
+
+    .block:before, .block:after {
+        content: '';
+        position: absolute;
+        left: -2px;
+        top: -2px;
+        background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094,
+        #0000ff, #00ff00,#ffff00, #ff0000);
+        background-size: 400%;
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        z-index: -1;
+        animation: steam 50s linear infinite;
+    }
+
+    @keyframes steam {
+        0% {
+            background-position: 0 0;
+        }
+        50% {
+            background-position: 400% 0;
+        }
+        100% {
+            background-position: 0 0;
+        }
+    }
+
+    .block:after {
+        filter: blur(10px);
+    }
+
+
+
+}

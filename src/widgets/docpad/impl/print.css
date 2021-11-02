@@ -1,0 +1,41 @@
+/*
+ * Copyright (c) 2021.  Reiner merz, ebit-company GmbH
+ * License is based on MIT License , Can be freely changed as long as the original Author is mentioned.
+ */
+
+
+@media print {
+    .noprint{
+        display: none
+    }
+
+.cube {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    top: 150px;
+    left: 5px;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 50%);
+    /*grid-template-columns: 33% 33% 33%;*/
+    grid-template-columns: repeat(auto-fill, 33%);
+}
+.face.one .doc {
+    position: absolute;
+    left: 20px;
+    top: -100px;
+    font-size: 3em;
+
+}
+.footerbox {
+    position: absolute;
+    display:table;
+    left:20px;
+    top: 91vh;
+    border: 5px solid black;
+}
+.boxcell {
+    display: table-cell;
+    width: 33%;
+}
+}

@@ -1,0 +1,68 @@
+
+:root {
+    --cube-width: 400px;
+    --cube-height:400px
+}
+@media screen {
+    .binf-widgets .ademo--docpad {
+        /* Make more space around the welcome message than the default Bootstrap
+           panel offers */
+        padding: 1em;
+        /* Make the panel look nicer */
+        background-color: #fff;
+        /* Fill up the parent tile extents. */
+        width: 60vw;
+        height: 50vh;
+    }
+
+    .inline {
+        display: inline;
+    }
+
+    #xp {
+        -webkit-perspective: 3800px;
+        -webkit-perspective-origin: 50% 200px;
+    }
+
+    #cube {
+        position: relative;
+        margin: 0 auto;
+        height: var(--cube-height);
+        width: var(--cube-width);
+        -webkit-transition: -webkit-transform 2s linear;
+        -webkit-transform-style: preserve-3d;
+
+    }
+
+    .face {
+        position: absolute;
+        height: 360px;
+        width: 360px;
+        padding: 20px;
+        background-color: #00b3ff;
+    }
+
+    #cube .one {
+        -webkit-transform: rotateX(90deg) translateZ(200px);
+    }
+
+    #cube .two {
+        -webkit-transform: translateZ(200px);
+    }
+
+    #cube .three {
+        -webkit-transform: rotateY(90deg) translateZ(200px);
+    }
+
+    #cube .four {
+        -webkit-transform: rotateY(180deg) translateZ(200px);
+    }
+
+    #cube .five {
+        -webkit-transform: rotatey(-90deg) translateZ(200px);
+    }
+
+    #cube .six {
+        -webkit-transform: rotateX(-90deg) translateZ(200px) rotate(180deg);
+    }
+}
