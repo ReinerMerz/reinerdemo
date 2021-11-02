@@ -1,5 +1,5 @@
 ![decpad](stage1%20overview.png)
-# Ademo Module. A csui demo module
+# ademo Module. A csui demo module
 
 This is a CS UI Extension project used to demostrate "SmartUI Rethought"
 
@@ -13,20 +13,14 @@ The following tools have to be installed, before you start:
 * Grunt command line tool:
     npm install -g grunt-cli
 
-## Contents
+## Src Tree
+The src tree requires a complete smartUI project. Initialize that project (21.4 required) and copy the src tree
+in the projects src tree. Be sure to use ademo as require.js prefix.
 
-The directory structure of this project:
+This is based on my blog on the multipart post "Rethinking smartui"
 
-    ./               # Package settings
-      lib/           # CS UI dependencies
-      out-debug/     # This project's debug build output
-      out-release/   # This project's release build output
-      src/           # Module sources
-        bundles/     # Module bundle definitions
-      test/          # Test configuration
-        debug/       # Output of the source module tests
-          coverage/  # Test coverage reports
-          results/   # Test result reports
-        release/     # Output of the release bundle tests
-          results/   # Test result reports
+http://pos2007.de/rethinking-smartui-part-3
+http://pos2007.de/rethinking-smartui-part-2
+http://pos2007.de/rethinking-smartui
+
 
