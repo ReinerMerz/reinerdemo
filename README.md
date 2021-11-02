@@ -1,4 +1,4 @@
-![Display](docdisplay.png)
+![Display](main/docdisplay.png)
 # ReinerDemo
 The source code of the "smartUI Rethought".
 Go access it, switch to the master branch.
