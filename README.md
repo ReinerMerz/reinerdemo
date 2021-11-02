@@ -1,4 +1,4 @@
-![decpad]https://github.com/ReinerMerz/reinerdemo/blob/master/stage1%20overview.png
+![decpad](stage1%20overview.png)
 # Ademo Module. A csui demo module
 
 This is a CS UI Extension project used to demostrate "SmartUI Rethought"
