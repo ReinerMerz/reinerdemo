@@ -1,4 +1,4 @@
-![Display](main/docdisplay.png)
+![Display](https://github.com/ReinerMerz/reinerdemo/raw/master/stage1%20overview.png)
 # ReinerDemo
 The source code of the "smartUI Rethought".
 Go access it, switch to the master branch.
