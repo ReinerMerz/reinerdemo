@@ -10,5 +10,5 @@ Prerequisites are for the customer
 - smartUI knowledge and Internet Access
 - MS Teams installed
 
-Thed cost is 500€ for the 1 days training.
+The cost is 500€ for the 1 days training.
 Inquiries per email merz@ebit-company.de
