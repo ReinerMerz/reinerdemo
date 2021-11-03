@@ -1,7 +1,7 @@
 ![decpad](stage1%20overview.png)
 # ademo Module. A csui demo module
 
-This is a CS UI Extension project used to demostrate "SmartUI Rethought"
+This is a CS UI Extension project used to demostrate "Rethinking smartUI"
 
 ## Pre-requisites
 
